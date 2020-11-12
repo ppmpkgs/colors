@@ -308,13 +308,13 @@ implementation
 
 initialization
 
-  COLOR_RESET := TBasicColor.Create(cmReset);
-  COLOR_BOLD := TBasicColor.Create(cmBold);
-  COLOR_FAINT := TBasicColor.Create(cmFaint);
-  COLOR_ITALIC := TBasicColor.Create(cmItalic);
-  COLOR_UNDERLINE := TBasicColor.Create(cmUnderline);
-  COLOR_REVERSE := TBasicColor.Create(cmReverse);
-  COLOR_STRIKE := TBasicColor.Create(cmStrike);
+  COLOR_RESET := TBasicColor.Create(Byte(cmReset));
+  COLOR_BOLD := TBasicColor.Create(Byte(cmBold));
+  COLOR_FAINT := TBasicColor.Create(Byte(cmFaint));
+  COLOR_ITALIC := TBasicColor.Create(Byte(cmItalic));
+  COLOR_UNDERLINE := TBasicColor.Create(Byte(cmUnderline));
+  COLOR_REVERSE := TBasicColor.Create(Byte(cmReverse));
+  COLOR_STRIKE := TBasicColor.Create(Byte(cmStrike));
 
   COLOR_BLACK := TBasicColor.Create(CODE_BLACK);
   COLOR_RED := TBasicColor.Create(CODE_RED);

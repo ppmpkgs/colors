@@ -45,7 +45,7 @@ In addition to `COLOR_RESET`, you can use the following simple colors:
   13. `COLOR_CYAN` / `COLOR_BG_CYAN`
   14. `COLOR_WHITE` / `COLOR_BG_WHITE`
 
-Again, don't forget the call to `ToString`.
+Again, don't forget to call `ToString`.
 
 ### Colors as objects
 
