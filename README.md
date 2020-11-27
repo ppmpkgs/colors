@@ -1,6 +1,6 @@
-# Colors!
+# Console colors!
 
-This is a package that simplifies the use of colors in the terminal. To better understand this package, at least a rudimentary knowledge of [Select Graphics Rendition (SGR) ANSI escape sequences](https://en.wikipedia.org/wiki/ANSI_escape_code#SGR) is recommended.
+This is a package that simplifies the use of console colors in the terminal. To better understand this package, at least a rudimentary knowledge of [Select Graphics Rendition (SGR) ANSI escape sequences](https://en.wikipedia.org/wiki/ANSI_escape_code#SGR) is recommended.
 
 ## Usage
 

@@ -1,4 +1,4 @@
-unit Colors;
+unit ConsoleColors;
 
 {$mode objfpc}
 {$h+}

@@ -1,12 +1,11 @@
 uses
-  Colors,
+  ConsoleColors,
   Math;
 const
   WIDTH = 200;
   HEIGHT = 70;
 var
   x, y: Byte;
-  c: T4BitColor;
 begin
   for y := 1 to HEIGHT do begin
     for x := 1 to WIDTH do
